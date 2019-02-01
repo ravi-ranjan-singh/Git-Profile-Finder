@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Krub', sans-serif;
+    color: white;
+}
+
+body{
+    background-image: url(bg2.png);
+    background-size:cover;
+}
+
+.container
+{
+    width: 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 0 !important;
+}
+
+.header
+{
+    background-color: #000;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.navbar img{
+    width: 70px;
+    margin: 10%;
+    height: auto;
+    display: inline-block;
+}
+
+.navbar h1{
+ font-family:'Monoton', cursive;
+ color: dodgerblue;
+ letter-spacing: 5px;
+}
+
+.main_content
+{
+    margin: 5%;
+    margin-top: 2%;
+}
+
+.profile_img img{
+    border: 2px solid orangered;
+    border-radius: 10px;
+    height: 230px;
+    width: 230px !important;
+    padding: 0px !important;
+}
+
+.user_data .badge
+{
+    height: 9%!important;
+    padding-top: 1%!important;
+    width: 20%!important;
+    margin-right: 1%!important;
+}
+.page-heading{
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-style: italic;
+    display: none;
+}
+
+#repos .card
+{
+height: 10px;
+padding-bottom: 4%;
+}
+
+#repos .badge
+{
+    width: 30%;
+    margin-right: 2%;
+    height: 25px;
+}
+
+.data{
+text-align: center;
+list-style:none;
+line-height: 250%;
+}
+
+.alert{
+    color: white!important;
+}
+.displayBox{
+    display: none;
+}
+
+.footer{
+    background-color: #000;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 70px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 10%;
+    padding-top: 2%;
+  
+}
+
+.loader{
+    text-align: center;
+    font-size: 350%;
+}
+
